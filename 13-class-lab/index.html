@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #col {
+            width: 300px;
+            height: 300px;
+            border: 2px solid black;
+        }
+        .container{
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 5px;
+            width: 400px;
+            height: 80vh;
+            background-color: aqua;
+            box-shadow: 1px 1px 4px 2px gray;
+            border-radius: 10px;
+        }
+
+        .form input {
+            width: 300px;
+            height: 50px;
+            border-radius: 10px;
+            border: none;
+            outline: none;
+            padding: 1px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <input type="text" placeholder="Enter Username" id="input">
+    <button onclick="check()">Submit</button>
+    <p id="result"></p> -->
+    <!-- -------------  -------------------------- -->
+    <!-- <input type="text" placeholder="Enter Username" id="input">
+    <h1 id="head"></h1>
+    <button onclick="result()">Click</button> -->
+    <!-- --------------------------------------------- -->
+    <!-- <div id="col"></div>
+    <button onclick="result(`red`)">red</button>
+    <button onclick="result(`pink`)">pink</button>
+    <button onclick="result(`blue`)">blue</button>
+    <button onclick="result(`gray`)">gray</button>
+    <button onclick="result(`yellow`)">yellow</button> -->
+    <!-- ------------------------------------------------------ -->
+    <div class="container">
+        <div class="form">
+            <h1>Persentage Calculator</h1>
+            <input type="text" placeholder="Enter Student Name" id="user"></br>
+            <input type="number" placeholder="Enter Total Marks" id="total"></br>
+            <input type="number" placeholder="Enter Math Subject Marks" id="math"></br>
+            <input type="number" placeholder="Enter English Subject Marks" id="english"></br>
+            <input type="number" placeholder="Enter Physice Subject Marks" id="physice"></br>
+            <input type="number" placeholder="Enter Computer Subject Marks" id="computer"></br>
+            <input type="number" placeholder="Enter Coding Subject Marks" id="coding"></br>
+            <button id="result()">Check Persentage</button>
+        </div>
+    </div>
+    <h1 id="done"></h1>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
