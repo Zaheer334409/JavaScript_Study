@@ -54,5 +54,71 @@
 
 
 // Practice________Object.
-let step = startNumber <= endNumber ? 1 : -1;
-console.log(step);
+// LAb Class
+
+
+// let laptop = {
+//     Model: "Dell",
+//     Price: 80000,
+//     color: "LightGary",
+
+
+//     // just method of object______Not Important
+
+//     // start: function () {
+//     //     console.log("Starting ....");
+//     // }
+
+// }
+// Delete
+// delete laptop.color
+
+// for (let props in laptop){
+//     console.log(props);
+//     console.log(laptop[props]);
+// }
+
+// Condition
+
+// if ("price" in laptop){
+//     console.log(laptop.Model + "Available for Sale");
+// }else{
+//     console.log(laptop.Model + "Sorry! Not Available");
+// }
+
+// console.log(laptop);
+
+// ___________
+
+// let basicPlan = {
+//     price: 234,
+//     month: "july"
+// }
+
+
+// let proessionalPlan = {
+//     price: 234,
+//     month: "August",
+// }
+
+// let ultimatePlanPlan = {
+//     price: 234,
+//     month: "December"
+// }
+
+// let Month = prompt("Enter Montth");
+
+// if (Month === month.basicPlan) {
+//     console.log("10% Discount");
+// } else if (Month === month.proessionalPlan) {
+//     console.log("12% Discount");
+// }else if(Month === month.ultimatePlanPlan){
+//     console.log("15% Discount");
+// }else{
+//     console.log("No Discount");
+// }
+
+// prototype
+// attendance
+// props
+// all use plus for
