@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Filter_Task</title>
+</head>
+
+<body>
+
+    <!-- <h1>Filter Task</h1>
+    <input type="text" name="searching" id="filter-text" placeholder="Enter City" onkeyup="filterList()">
+    <ul id="listing">
+        <li>Karachi</li>
+        <li>Ghotki</li>
+        <li>Islamabad</li>
+        <li>Quttia</li>
+        <li>Hyderabad</li>
+        <li>Saleh Mahar</li>
+        <li>KhanPur</li>
+    </ul> -->
+
+    <!-- _________________________________- -->
+    <h1>Important Filter 😂</h1>
+
+    <!-- Control buttons -->
+    <div id="myBtnContainer">
+        <button class="btn active" onclick="filterSelection('filterDiv')"> Show all</button>
+        <button class="btn" onclick="filterSelection('cars')"> Cars</button>
+        <button class="btn" onclick="filterSelection('animals')"> Animals</button>
+        <button class="btn" onclick="filterSelection('fruits')"> Fruits</button>
+        <button class="btn" onclick="filterSelection('colors')"> Colors</button>
+    </div>
+
+    <!-- The filterable elements. Note that some have multiple class names (this can be used if they belong to multiple categories) -->
+    <div id="container">
+        <div class="filterDiv cars">BMW</div>
+        <div class="filterDiv colors fruits">Orange</div>
+        <div class="filterDiv cars">Volvo</div>
+        <div class="filterDiv colors">Red</div>
+        <div class="filterDiv cars">Ford</div>
+        <div class="filterDiv colors">Blue</div>
+        <div class="filterDiv animals">Cat</div>
+        <div class="filterDiv animals">Dog</div>
+        <div class="filterDiv fruits">Melon</div>
+        <div class="filterDiv fruits animals">Kiwi</div>
+        <div class="filterDiv fruits">Banana</div>
+        <div class="filterDiv fruits">Lemon</div>
+        <div class="filterDiv animals">Cow</div>
+    </div>
+
+
+    <script src="./app.js"></script>
+</body>
+
+</html>

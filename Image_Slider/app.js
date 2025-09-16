@@ -14,7 +14,19 @@ setInterval(function () {
         topImagesIndex = 0;
     }
 }, 2000);
+// 
+setInterval(function () {
+    for (let i = 0; i < sliderImages.length; i++) {
+        topImagesIndex[i].style.zIndex = 0;
+    }
 
+    sliderImages[topImagesIndex].style.zIndex = 10
+    topImagesIndex++
+
+    if (topImagesIndex >= sliderImages.length) {
+        topImagesIndex++
+    }
+}, 2000)
 // 
 
 function swaperight() {
