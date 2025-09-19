@@ -21,18 +21,38 @@
 // console.log("3");
 
 
-function signup(email, password, callBack) {
+// function signup(email, password, callBack) {
+//     setTimeout(function () {
+//         if (email === "za@gmail.com" && password === "090909") {
+//             console.log("Ok");
+//             callBack();
+//         }
+//     }, 1000)
+// }
+
+// signup("za@gmail.com", "090909", redirectTOTimeLine);
+
+// function redirectTOTimeLine() {
+//     console.log("Redircted To Firebase");
+// }
+
+// ---
+
+function signup(email, password, callBack, secondCallBack) {
     setTimeout(function () {
         if (email === "za@gmail.com" && password === "090909") {
             console.log("Ok");
-            callBack();
+            callBack(secondCallBack);
         }
     }, 1000)
 }
 
-signup("za@gmail.com", "090909", redirectTOTimeLine);
+signup("za@gmail.com", "090909",
+    function redirectTOTimeLine(cd) {
+        console.log(cd());
+    }, function redi() {
+        return "Wah Bhai Clean Code 😂"
 
-function redirectTOTimeLine() {
-    console.log("Redircted To Firebase");
+    });
 
-}
+
