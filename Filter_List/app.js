@@ -47,17 +47,17 @@
 
 
 
-let container = document.getElementById("container");
-function filterSelection(Items) {
-    let containerJun = container.childNodes;
-    for (let i = 0; i < containerJun.length; i++) {
-        if (containerJun[i].nodeType === 1) {
-            if (containerJun[i].className.indexOf(Items) !== -1) {
-                containerJun[i].style.display = "block"
-            }
-            else {
-                containerJun[i].style.display = "none"
-            }
-        }
-    }
-}
+// let container = document.getElementById("container");
+// function filterSelection(Items) {
+//     let containerJun = container.childNodes;
+//     for (let i = 0; i < containerJun.length; i++) {
+//         if (containerJun[i].nodeType === 1) {
+//             if (containerJun[i].className.indexOf(Items) !== -1) {
+//                 containerJun[i].style.display = "block"
+//             }
+//             else {
+//                 containerJun[i].style.display = "none"
+//             }
+//         }
+//     }
+// }
