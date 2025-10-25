@@ -2,18 +2,33 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Info</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
+    <div class="container">
+        <h2>Student Form</h2>
 
+        <form id="student-form">
+            <div>
+                <label for="student-name">Student Name:</label>
+                <input id="student-name" type="text" name="student-name" placeholder="Enter student name" />
+            </div>
+            <div>
+                <label for="roll-no">Roll No.:</label><br />
+                <input id="roll-no" type="number" name="roll-no" placeholder="Enter roll number" />
+            </div>
+            <button type="submit">Submit</button>
+        </form>
 
-    student name: <input id="student-name" type="text" name="student-name"> <br />
-    roll no.: <input id="roll-no" type="number" name="roll-no">
-    <button onClick="submit()">Submit</button>
-    <script src="app.js"></script>
+        <h3>Saved Students</h3>
+        <ul id="students-list"></ul>
+    </div>
+
+    <script src="./app.js"></script>
 </body>
 
 </html>
